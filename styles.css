@@ -18,7 +18,11 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
-
+#img{
+  position: absolute; 
+  top: 130%; 
+  right: -10%
+}
 a {
   text-decoration: none;
 }
@@ -214,6 +218,9 @@ ul li a:hover {
 
   .image {
     grid-area: 1/1/2/2;
+  }
+  #img{
+    display: none;
   }
 
   .action__btns {
